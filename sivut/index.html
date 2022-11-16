@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Kirjaudu sisään</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="login">
+			<h1>Kirjaudu sisään</h1>
+			<form action="authenticate.php" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Käyttäjänimi" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Salasana" id="password" required>
+                <p>Voit myös <a href="register.html">rekisteröityä</a>!</p>
+				<input type="submit" value="Kirjaudu sisään">
+			</form>
+		</div>
+	</body>
+</html>
