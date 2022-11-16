@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Yhteydenottolomake</title>
+</head>
+<body>
+    <form  method="POST" action="form.php">
+        <div class="row">
+            <div class="col-12">
+                <h2>Ota yhteyttä!</h2>                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 rivi1">
+                <p><label id="yht">Nimi: </label> <input name="name" type="text" /> <label id="yht">Sposti: </label> <input style="cursor: pointer;" name="email" type="text" /></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p><label id="yht">Viesti: </label>  <textarea name="message"></textarea> </p>
+                <p class="p"><input type="submit" value="Send" class="nappi"/></p>
+            </div>
+        </div>
+
+
+    </form>    
+</body>
+</html>
